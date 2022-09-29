@@ -41,7 +41,7 @@ header nav img{
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover; 
-    background-position: top, center;
+    background-position: top;
     background-repeat: no-repeat;
 
     /* debug */
