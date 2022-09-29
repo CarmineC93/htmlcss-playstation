@@ -30,3 +30,25 @@ header img{
 header nav img{
     height: 35px;
 }
+
+/* MAIN */
+.wrapper{
+    margin-top: 7rem;
+}
+
+/* Jumbotron */
+
+#jumbotron{
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover; 
+    background-position: top, center;
+    background-repeat: no-repeat;
+
+    /* debug */
+    height: 300px;
+    color:white;
+}
+
+#jumbotron img{
+    height: 40px;
+}
