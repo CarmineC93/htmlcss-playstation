@@ -74,12 +74,18 @@ ul a>img{
     background-size: cover; 
     background-position: top;
     background-repeat: no-repeat;
-
     min-height: 400px;
 }
 
 #jumbotron img{
     height: 40px;
+}
+
+/* Newgames  */
+
+.card{
+    border: 0;
+
 }
 
 /* Secondary jumbotron */
