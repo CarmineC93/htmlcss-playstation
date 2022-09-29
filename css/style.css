@@ -44,11 +44,27 @@ header nav img{
     background-position: top;
     background-repeat: no-repeat;
 
-    /* debug */
-    height: 300px;
-    color:white;
+        /* debug */
+        height: 300px;
+        color:white;
 }
 
 #jumbotron img{
     height: 40px;
+}
+
+/* Secondary jumbotron */
+.ms_sec_jumbo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover; 
+    background-position: top;
+    background-repeat: no-repeat;
+
+        /* debug */
+        height: 500px;
+        color:white;
+}
+
+.ms_sec_jumbo img{
+    height: 150px;
 }
