@@ -91,3 +91,30 @@ header nav img{
     background-color: blue;
     color: white;
 }
+
+/* Social media */
+@media screen and (min-width:768px){
+    #social img {
+        height: 100px;
+      }  
+
+    #social .row{
+        /* debug */
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+
+  }
+
+  @media screen and (min-width:992px){
+    #social img {
+        height: 80px;
+      }  
+
+    #social .row{
+        /* debug */
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+ 
+  }
