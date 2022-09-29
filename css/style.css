@@ -2,8 +2,22 @@
 :root{
     /* palette */
     --ms_black_text: black;
+
+
+    --ms_orng_btn:#CD3D0F;
+
+    --ms_brd_rad20:20px
 }
 
+/* Utility */
+
+.ms_orng_btn{
+    background-color: var(--ms_orng_btn);
+}
+
+.ms_brd_rad20{
+    border-radius:var(--ms_brd_rad20);
+}
 
 
 
@@ -46,9 +60,7 @@ ul a>img{
     color: var(--ms_black_text);
 }
 
-.nav-item .btn{
-    border-radius: 20px;
-}
+
 
 /* MAIN */
 .wrapper{
@@ -63,9 +75,7 @@ ul a>img{
     background-position: top;
     background-repeat: no-repeat;
 
-        /* debug */
-        height: 300px;
-        color:white;
+    min-height: 400px;
 }
 
 #jumbotron img{
