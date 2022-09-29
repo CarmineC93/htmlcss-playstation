@@ -76,3 +76,8 @@ header nav img{
         width: 60%;
     }  
 }
+
+/* Playstation Plus */
+#ps_plus{
+    background-color: gray;
+}
