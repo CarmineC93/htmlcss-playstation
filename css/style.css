@@ -82,10 +82,18 @@ ul a>img{
 }
 
 /* Newgames  */
-
 .card{
     border: 0;
+}
 
+/* playstation 5 */
+#playstation5 h6{
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+#playstation5 .card>img{
+    width: 90px;
 }
 
 /* Secondary jumbotron */
