@@ -68,3 +68,11 @@ header nav img{
 .ms_sec_jumbo img{
     height: 150px;
 }
+
+/* Explore PS4 */
+@media screen and (min-width:768px){
+  .ms_small_box {
+        margin: auto;
+        width: 60%;
+    }  
+}
