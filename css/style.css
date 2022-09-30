@@ -96,24 +96,6 @@ ul a>img{
     width: 90px;
 }
 
-/* Secondary jumbotron */
-.ms_sec_jumbo{
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-size: cover; 
-    background-position: top;
-    background-repeat: no-repeat;
-
-        /* debug */
-        height: 500px;
-        color:white;
-}
-
-.ms_sec_jumbo img{
-    height: 150px;
-}
-
-/* Playstation 5 */
-
 #playstation5 .card:not(.ms_active)>img{
     filter:opacity(0.5)
 }
@@ -132,11 +114,22 @@ ul a>img{
     filter:opacity(1)
 }
 
-
 @media screen and (min-width:768px){
     .ms_min-h05{
         min-height: 5.5rem;
     }
+}
+
+/* Secondary jumbotron */
+.ms_sec_jumbo{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover; 
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.ms_sec_jumbo img{
+    max-height: 230px;
 }
 
 
