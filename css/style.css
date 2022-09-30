@@ -4,12 +4,17 @@
     --ms_black_text: black;
     --ms_bg_plus: #BEBCBB;
     --ms_bg_now: #161C3B;
+    --ms_head_btn: #363636;
     --ms_orng_btn:#CD3D0F;
     --ms_bg_footer:#00439C;
     --ms_brd_rad20: 20px;
 }
 
 /* Utility */
+.ms_head_btn{
+    background-color: var(--ms_head_btn);
+}
+
 .ms_orng_btn{
     background-color: var(--ms_orng_btn);
 }
@@ -79,6 +84,11 @@ ul a>img{
     color: var(--ms_black_text);
 }
 
+.nav-item .btn:hover {
+    background-color: black;
+    border:solid 1px white ;
+    outline:solid 1px black;
+}
 
 /* MAIN */
 .wrapper{
@@ -96,6 +106,12 @@ ul a>img{
 
 #jumbotron img{
     height: 40px;
+}
+
+#jumbotron .btn:hover{
+    background-color: #a53510;
+    border:solid 1px black ;
+    outline:solid 1px #a53510;
 }
 
 /* Newgames  */
