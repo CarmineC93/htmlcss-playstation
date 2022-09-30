@@ -2,8 +2,7 @@
 :root{
     /* palette */
     --ms_black_text: black;
-
-
+    --ms_bg_plus: #BEBCBB;
     --ms_orng_btn:#CD3D0F;
 
     --ms_brd_rad20:20px
@@ -13,6 +12,10 @@
 
 .ms_orng_btn{
     background-color: var(--ms_orng_btn);
+}
+
+.ms_bg_plus{
+    background-color: var(--ms_bg_plus);
 }
 
 .ms_brd_rad20{
@@ -147,7 +150,6 @@ ul a>img{
 }
 
 
-
 /* Explore PS4 */
 @media screen and (min-width:768px){
   .ms_small_box {
@@ -157,10 +159,9 @@ ul a>img{
 }
 
 /* Playstation Plus */
-#ps_plus{
-            /* debug */
 
-    background-color: gray;
+#ps_plus .ms_logo_psplus{
+    max-width: 250px;
 }
 
 /* Playstation Now */
