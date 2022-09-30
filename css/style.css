@@ -112,6 +112,34 @@ ul a>img{
     height: 150px;
 }
 
+/* Playstation 5 */
+
+#playstation5 .card:not(.ms_active)>img{
+    filter:opacity(0.5)
+}
+
+.ms_active{
+    border-bottom: 2px #2586D5 solid;
+    border-radius: 0;
+}
+
+#playstation5  .card:hover{
+    border-bottom: 2px #2586D5 solid;
+    border-radius: 0;
+}
+
+#playstation5  .card:hover img{
+    filter:opacity(1)
+}
+
+
+@media screen and (min-width:768px){
+    .ms_min-h05{
+        min-height: 5.5rem;
+    }
+}
+
+
 /* Explore PS4 */
 @media screen and (min-width:768px){
   .ms_small_box {
