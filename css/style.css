@@ -97,6 +97,10 @@ ul a>img{
     width: 90px;
 }
 
+#playstation5 .ms_ps5{
+    max-height: 500px;
+}
+
 #playstation5 .card:not(.ms_active)>img{
     filter:opacity(0.5)
 }
