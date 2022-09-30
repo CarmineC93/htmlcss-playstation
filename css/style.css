@@ -61,14 +61,12 @@ ul a>img{
 }
 
 
-
 /* MAIN */
 .wrapper{
     margin-top: 7rem;
 }
 
 /* Jumbotron */
-
 #jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-size: cover; 
@@ -86,7 +84,7 @@ ul a>img{
     border: 0;
 }
 
-/* playstation 5 */
+/* Playstation 5 */
 #playstation5 h6{
     font-size: 0.8rem;
     margin-bottom: 0;
@@ -131,6 +129,23 @@ ul a>img{
 .ms_sec_jumbo img{
     max-height: 230px;
 }
+
+.ms_sj_selection .card{
+    background-color: transparent;
+}
+
+.ms_sj_selection .card img{
+    border-radius: var(--ms_brd_rad20);
+}
+
+.ms_sj_selection .card-body{
+    padding: 0.5rem 0 1rem 0;
+}
+
+.ms_sj_selection .card-body h6{
+    font-size: 0.9rem;
+}
+
 
 
 /* Explore PS4 */
