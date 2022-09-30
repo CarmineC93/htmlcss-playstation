@@ -5,12 +5,11 @@
     --ms_bg_plus: #BEBCBB;
     --ms_bg_now: #161C3B;
     --ms_orng_btn:#CD3D0F;
-
-    --ms_brd_rad20:20px
+    --ms_bg_footer:#00439C;
+    --ms_brd_rad20: 20px;
 }
 
 /* Utility */
-
 .ms_orng_btn{
     background-color: var(--ms_orng_btn);
 }
@@ -23,10 +22,18 @@
     background-color: var(--ms_bg_now);
 }
 
+.ms_bg_footer{
+    background-color: var(--ms_bg_footer);
+}
+
 .ms_brd_rad20{
     border-radius:var(--ms_brd_rad20);
 }
 
+.ms_clean{
+    text-decoration: none;
+    color: inherit;
+}
 
 
 /* COMMON */
@@ -36,6 +43,10 @@ html{
 
 img{
     max-width: 100%;
+}
+
+ul{
+    list-style-type: none;
 }
 
 
@@ -173,17 +184,13 @@ ul a>img{
     max-width: 290px;
 }
 
-/* Playstation Now */
-
-
-/* Social media */
-
-
-
-
   /* FOOTER */
 footer{
     color: white;
+}
+
+.ms_tp_foot img{
+    height: 70px;
 }
 
 .ms_bt_foot img{
@@ -191,5 +198,6 @@ footer{
 }
 
 .ms_language img{
-    height: 10px;
+    height: 15px;
+    vertical-align: middle;
 }
