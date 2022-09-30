@@ -33,12 +33,21 @@
 
 .ms_brd_rad20{
     border-radius:var(--ms_brd_rad20);
+    border-width: 2px;
 }
 
 .ms_clean{
     text-decoration: none;
     color: inherit;
 }
+
+.ms_active_card{
+    border-style: solid;
+    border:solid 2px white ;
+    outline:solid 2px #7EB7E6;
+    border-radius: 15px;
+}
+
 
 
 /* COMMON */
@@ -52,6 +61,10 @@ img{
 
 ul{
     list-style-type: none;
+}
+
+.card{
+    border: solid 2px transparent;
 }
 
 
@@ -86,7 +99,7 @@ ul a>img{
 
 .nav-item .btn:hover {
     background-color: black;
-    border:solid 1px white ;
+    border:solid 2px white ;
     outline:solid 1px black;
 }
 
@@ -108,16 +121,19 @@ ul a>img{
     height: 40px;
 }
 
-#jumbotron .btn:hover{
+#jumbotron .btn:hover,
+.ms_sec_jumbo .btn:hover{
     background-color: #a53510;
-    border:solid 1px black ;
+    border:solid 2px black;
     outline:solid 1px #a53510;
 }
 
 /* Newgames  */
-.card{
-    border: 0;
+
+#ms_new_games .card:hover {
+    transform: translateY(-1rem);
 }
+
 
 /* Playstation 5 */
 #playstation5 h6{
